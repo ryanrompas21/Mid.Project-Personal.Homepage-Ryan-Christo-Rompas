@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+
+<body>
+
+<div class="navbar">
+    <a href="home.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html" class="active">Contact</a>
+</div>
+
+<div class="container">
+    <h1>Contact</h1>
+
+    <!-- DATA DIRI -->
+<div class="contact-center">
+    <div class="card contact-item fade-in">
+        <h3><u>Data Diri</u></h3>
+
+        <p class="text-muted">
+            <b>Nama :</b> Ryan Christo Rompas
+        </p>
+
+        <p class="text-muted">
+            <b>NIM :</b> 240211060055
+        </p>
+
+        <p class="text-muted">
+            <b>Program Studi :</b> Teknik Informatika
+        </p>
+
+        <p class="text-muted">
+            <b>Universitas :</b> Universitas Sam Ratulangi
+        </p>
+    </div>
+</div>
+
+<!-- CONTACT -->
+<div class="contact-wrapper">
+
+    <!-- EMAIL -->
+    <div class="card contact-item fade-in">
+        <h3><u>Email</u></h3>
+
+        <p class="text-muted" id="email">
+            ryanrompas026@student.unsrat.ac.id
+        </p>
+
+        <button class="copy-btn" onclick="copyText('email')">
+            Copy
+        </button>
+    </div>
+
+    <!-- TELEPON -->
+    <div class="card contact-item fade-in">
+        <h3><u>Telepon</u></h3>
+
+        <p class="text-muted" id="phone">
+            081283959576
+        </p>
+
+        <button class="copy-btn" onclick="copyText('phone')">
+            Copy
+        </button>
+    </div>
+
+</div>
+
+</div>
+
+<div class="footer">
+    <p>- Website Ryan -</p>
+</div>
+
+</body>
+</html>
