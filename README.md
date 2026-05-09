@@ -1,1 +1,0 @@
-# Mid.Project-Personal.Homepage-Ryan-Christo-Rompas
